@@ -28,7 +28,7 @@ if(careerChange.toUpperCase() === 'Yes' || careerChange.toUpperCase() === 'Y') {
 var leisureTime = prompt('Do I fish?');
 
 if(leisureTime.toUpperCase() === 'YES' || leisureTime.toUpperCase() === 'Y'){
-  alert('Even when I don\t get a bite my time on the water is the best.');
+  alert('Even when I don\'t get a bite my time on the water is the best.');
 } else {
   alert('I don\'t catch, but I do fish.');
 } console.log(leisureTime);
