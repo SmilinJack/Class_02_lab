@@ -41,6 +41,26 @@ if(likesGameOfThrones.toUpperCase() === 'YES' || likesGameOfThrones.toUpperCase(
   alert('Trick question. I have only seen the first episode.');
 } console.log(likesGameOfThrones);
 
+//6th Question
+
+var pcsMoves = prompt('In my military service, I was assigned to many different bases. Can you guess how many?'); //9
+
+if(pcsMoves.toUpperCase() === 'YES' || pcsMoves.toUpperCase() === 'Y'){
+  alert('YES!! I have 5 children and 2 stepchildren');
+} else {
+  alert('I wonder what my life would be like without my kids?');
+} console.log(pcsMoves);
+
+//7th Question
+
+var statesLivedin = prompt('I have lived in 9 different states. Can you guess them?');
+
+if(statesLivedin.toUpperCase() === 'YES' || statesLivedin.toUpperCase() === 'Y'){
+  alert('I have 5 grandchildren. 3 granddaughters and 2 grandsons.');
+} else {
+  alert('Maybe I am older than I look?');
+} console.log(haveGrandkids);
+
 // if(condition is met){
 //   do something
 // } else if(a differnt condition is met){
