@@ -1,7 +1,7 @@
 'use strict';
 
 var haveKids = prompt('Do I have any children?');
-likesGameOfThrones = likesGameOfThrones.toLowerCase();
+//likesGameOfThrones = likesGameOfThrones.toLowerCase();
 
 if(haveKids.toUpperCase() === 'YES' || haveKids.toUpperCase() === 'Y'){
   alert('YES!! I have 5 children and 2 stepchildren');
