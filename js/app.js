@@ -52,12 +52,11 @@ for(var i = 0; i < 4; i++){
     alert('You got it!');
     break;
   } else if (i === 3){
-    alert('I\'ve been assigned to Forts Drum, Hood, Bragg, Gordon, Lee, Lewis, and Camp Garryowen.');
-  
+    alert('I\'ve been assigned to Forts Drum, Hood, Bragg, Gordon, Lee, Lewis, and Camp Garryowen.');  
   } else if (pcsMoves < mypcsMoves) {
     alert('Too low.');
   } else {
-    alert('Like Seth Rogen, You\'re Too high')
+    alert('Like Seth Rogen, You\'re Too high');
   }
 } console.log(pcsMoves);
 
@@ -82,7 +81,7 @@ for (var j = 0; j < 3; j++) {
   }
 
   // if(condition is true){
-    //do the thing
+  //do the thing
   // }
   if (isCorrect) {
     alert('You got it!');
